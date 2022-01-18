@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: "Overpass";
+}
+
+h1 {
+  font-family: "Permanent Marker", cursive;
+}
+
+.parallaxParent {
+  height: 100vh;
+  overflow: hidden;
+}
+.parallaxParent > * {
+  height: 200%;
+  position: relative;
+  top: -100%;
+}

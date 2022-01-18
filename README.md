@@ -2,11 +2,13 @@
 
 ## was will ich erreichen?
 
-Design - Portfolio
+Design - Portfolio -> DE/EN
+Single Page, Landing Page, Projects, Contact
 
 ## welche schritte sind dafür nötig? (entwurf, recherche, implementierung, testen, bugfixing)
 
-entwurf steht einigermaßen und wird während der arbeit angepasst. recherche arbeiten, speziell für den design bereich und die umsetzung der ideen, laufen aktuell noch an. die umsetzung und einrichtung der ideen wird wohl am meisten zeit brauchen
+entwurf steht einigermaßen und wird während der arbeit angepasst.
+recherche arbeiten, speziell für den design bereich und die umsetzung der ideen, laufen aktuell noch an. die umsetzung und einrichtung der ideen wird wohl am meisten zeit brauchen
 
 ## wie viel zeit kalkuliere ich pro schritt?
 
