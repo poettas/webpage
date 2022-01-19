@@ -1,7 +1,12 @@
 module.exports = {
-  content: ["index.html"],
+  content: ["index.html", "./node_modules/tw-elements/dist/js/**/*.js"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        "text-own-yellow": "#ffc812",
+        "own-orange-high": "#fab23d",
+      },
+    },
   },
-  plugins: [],
+  plugins: [require("tw-elements/dist/plugin")],
 };

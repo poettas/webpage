@@ -12,20 +12,20 @@
     "watch": "live-server src",
     "watch:styles": "sass src/scss:src/styles --watch",
     "publish": "gh-pages -d dist",
-    "build:css": "postcss src/css/styles.css -o public/style.css"
+    "build:css": "postcss src/css/styles.css -o public/style.css --watch"
   },
   "keywords": [],
   "license": "ISC",
   "dependencies": {
     "autoprefixer": "^10.4.2",
-    "bootstrap": "^5.1.3",
+    "chart.js": "^2.9.4",
     "postcss-cli": "^9.1.0",
     "scrollmagic": "^2.0.8",
-    "tailwindcss": "^3.0.15"
+    "tailwindcss": "^3.0.15",
+    "tw-elements": "^1.0.0-alpha8"
   },
   "devDependencies": {
-    "gh-pages": "^2.1.1",
-    "live-server": "^1.1.0",
+    "gh-pages": "^3.2.3",
     "npm-run-all": "^4.1.5",
     "sass": "^1.23.0-module.beta.1"
   }
