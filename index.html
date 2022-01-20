@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- css -->
+    <link rel="stylesheet" href="public/style.css" />
+
+    <!-- google fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Overpass|Permanent+Marker"
+      rel="stylesheet"
+    />
+
+    <!-- font awesome -->
+    <script
+      src="https://kit.fontawesome.com/d7fef04fdc.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Marc Poettgen</title>
+  </head>
+
+  <body class="bg-black">
+    <header>
+      <nav
+        class="w-full flex flex-wrap items-center justify-between py-2 bg-gray-900 shadow-lg navbar navbar-expand-lg navbar-light sticky top-0"
+      >
+        <div
+          class="container-fluid w-full flex flex-wrap items-center justify-between px-6"
+        >
+          <a
+            class="flex items-center text-green-400 hover:text-yellow-800 focus:text-yellow-800 mt-2 lg:mt-0 mr-1"
+            href="#landing"
+          >
+            <img
+              src="src/images/logo/logo1_16_90211.png"
+              style="height: 70px"
+              alt=""
+              loading="lazy"
+            />
+          </a>
+          <button
+            class="navbar-toggler text-color-own-green border-0 hover:shadow-none hover:no-underline py-2 px-2.5 bg-transparent focus:outline-none focus:ring-0 focus:shadow-none focus:no-underline"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <svg
+              aria-hidden="true"
+              focusable="false"
+              data-prefix="fas"
+              data-icon="bars"
+              class="w-8"
+              role="img"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 448 512"
+            >
+              <path
+                fill="currentColor"
+                d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"
+              ></path>
+            </svg>
+          </button>
+          <div
+            class="collapse navbar-collapse flex-grow items-center"
+            id="navbarSupportedContent"
+          >
+            <a class="text-xl text-color-own-green" href="#">Marc Poettgen</a>
+            <!-- Left links -->
+            <ul class="navbar-nav flex flex-col pl-0 list-style-none mr-auto">
+              <li class="nav-item px-2">
+                <a
+                  class="nav-link text-xl text-color-own-green hover:text-yellow-700 focus:text-yellow-800"
+                  aria-current="page"
+                  href="#who"
+                  >Wer?</a
+                >
+              </li>
+              <li class="nav-item pr-2">
+                <a
+                  class="nav-link text-xl text-color-own-green hover:text-yellow-700 focus:text-yellow-800 p-0"
+                  href="#projects"
+                  >Projekte</a
+                >
+              </li>
+              <li class="nav-item pr-2">
+                <a
+                  class="nav-link text-xl text-color-own-green hover:text-yellow-700 focus:text-yellow-800 p-0"
+                  href="#skills"
+                  >Skillset</a
+                >
+              </li>
+              <li class="nav-item pr-2">
+                <a
+                  class="nav-link text-xl text-color-own-green hover:text-yellow-700 focus:text-yellow-800 p-0"
+                  href="#contact"
+                  >Kontakt</a
+                >
+              </li>
+            </ul>
+            <!-- Left links -->
+          </div>
+          <!-- Collapsible wrapper -->
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section
+        class="h-screen grid grid-cols-1 md:grid-cols-2 mb-14"
+        id="landing"
+      >
+        <div class="container p-14 z-10 flex justify-center flex-col">
+          <h1 class="text-6xl text-center">
+            Hey! Schön, dass du da bist. <br />
+            Ich bin Marc Poettgen!
+          </h1>
+          <h2 class="text-2xl text-center mt-7">
+            kommender Webentwickler, Tüfftler und leidenschaftlicher DnD Master!
+          </h2>
+        </div>
+        <div class="container overflow-hidden z-0 md:relative p-14">
+          <img
+            src="src/images/img/20211124_082943-01-removebg-preview.png"
+            alt=""
+            class="overflow-hidden w-100 h-auto object-contain scale-150 brightness-50 hidden md:block md:visible md:relative top-20 right-2/3 lg:right-72"
+          />
+          <svg
+            width="421"
+            height="349"
+            viewBox="0 0 421 349"
+            fill="#232323"
+            xmlns="http://www.w3.org/2000/svg"
+            class="fill-white p-8 z-0 scale-110 hidden"
+          >
+            <ellipse cx="210.5" cy="174" rx="128.5" ry="88" fill="#fab23d" />
+            <ellipse cx="158.5" cy="108" rx="66.5" ry="88" fill="#fab23d" />
+            <ellipse cx="283.5" cy="235.5" rx="55.5" ry="48.5" fill="#fab23d" />
+            <ellipse
+              cx="210.478"
+              cy="174.158"
+              rx="213.5"
+              ry="62.5"
+              transform="rotate(-35.2073 210.478 174.158)"
+              fill="#fab23d"
+            />
+            <ellipse cx="218.5" cy="228.5" rx="51.5" ry="46.5" fill="#fab23d" />
+          </svg>
+        </div>
+      </section>
+
+      <section id="who" class="min-h-screen sec2 text-black mb-14 p-5">
+        <div class="container-fluid">
+          <h2 class="text-4xl mb-4 text-center">Marc.. Wer?</h2>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+          <div class="container">
+            <h3 class="text-3xl mb-4">Dann erzähl mal..</h3>
+            <p class="mb-4">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit,
+              assumenda. Maiores harum consectetur, provident repudiandae nobis
+              ullam cumque ex sapiente hic porro, accusantium omnis ratione
+              excepturi laboriosam sunt maxime voluptas? Lorem ipsum, dolor sit
+              amet consectetur adipisicing elit. Dolorum debitis, sequi et
+              maxime ipsum error!
+            </p>
+            <h3 class="text-3xl mb-4">Lorem, ipsum dolor.</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
+              corrupti quia nam dolore sunt quidem. Laudantium nihil aliquid
+              quas nam, ipsam impedit excepturi voluptatibus cupiditate
+              laboriosam officiis vel, perspiciatis, expedita voluptatum dolor
+              corporis ullam! Blanditiis molestias iste error soluta minima
+              provident vitae dolore dolores voluptatibus alias nobis iusto
+              voluptatum, vel eos, et impedit sint totam fugiat. Libero deserunt
+              sequi natus officia, rem nemo laboriosam beatae magnam dolorem
+              quis maiores soluta tenetur, sed iure non optio!
+            </p>
+          </div>
+          <div class="container flex flex-col align-middle overflow-hidden">
+            <img
+              src="src/images/img/IMG-20211023-WA0000-removebg-preview.png"
+              alt=""
+              class="hidden lg:inline-block w-full h-auto object-cover overflow-hidden"
+            />
+          </div>
+
+          <div
+            class="container mt-4 md:col-start-2 md:row-start-1 lg:col-start-3"
+          >
+            <h3 class="text-2xl mb-4">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque,
+              incidunt?
+            </h3>
+            <p class="mb-4">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
+              in atque architecto esse ea voluptatum et voluptates repellat
+              consequatur! Nam, harum? Voluptatem voluptate veritatis
+              reprehenderit omnis, beatae nemo voluptatibus distinctio.
+            </p>
+            <h3 class="text-3xl mb-4">Lorem, ipsum dolor.</h3>
+            <p class="mb-4">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
+              corrupti quia nam dolore sunt quidem. Laudantium nihil aliquid
+              quas nam, ipsam impedit excepturi voluptatibus cupiditate
+              laboriosam officiis vel, perspiciatis, expedita voluptatum dolor
+              corporis ullam! Blanditiis molestias iste error soluta minima
+              provident vitae dolore dolores voluptatibus alias nobis iusto
+              voluptatum, vel eos, et impedit sint totam fugiat. Libero deserunt
+              sequi natus officia, rem nemo laboriosam beatae magnam dolorem
+              quis maiores soluta tenetur, sed iure non optio!
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section
+        id="projects"
+        class="h-screen grid sm:grid-cols-1 md:grid-rows-2 mb-14 p-5 z-20"
+      >
+        <div class="container">
+          <h2 class="text-2xl">Projekte</h2>
+        </div>
+        <div class="container">
+          <div
+            id="carouselExampleControls"
+            class="carousel slide relative"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner relative w-full overflow-hidden">
+              <div class="carousel-item active relative float-left w-full">
+                <img
+                  src="https://mdbcdn.b-cdn.net/img/new/slides/041.webp"
+                  class="block w-full"
+                  alt="Wild Landscape"
+                />
+              </div>
+              <div class="carousel-item relative float-left w-full">
+                <img
+                  src="https://mdbcdn.b-cdn.net/img/new/slides/042.webp"
+                  class="block w-full"
+                  alt="Camera"
+                />
+              </div>
+              <div class="carousel-item relative float-left w-full">
+                <img
+                  src="https://mdbcdn.b-cdn.net/img/new/slides/043.webp"
+                  class="block w-full"
+                  alt="Exotic Fruits"
+                />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline left-0"
+              type="button"
+              data-bs-target="#carouselExampleControls"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon inline-block bg-no-repeat"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline right-0"
+              type="button"
+              data-bs-target="#carouselExampleControls"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon inline-block bg-no-repeat"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="min-h-screen sec2 text-black p-5">
+        <div class="container-fluid text-center text-3xl">
+          <h2>Skillset</h2>
+        </div>
+        <div class="container grid grid-cols-1 md:grid-cols-2">
+          <div class="rounded-lg overflow-hidden">
+       
+            <canvas class="p-5 text-black" id="chartPie"></canvas>
+            <!-- Required chart.js -->
+            <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <script>
+          const dataPie = {
+            labels: ["HTML", "CSS", "JS", "Python"],
+            datasets: [
+              {
+                label: ["My Skillset", "#000"],
+                data: [300, 200, 50, 50],
+                backgroundColor: [
+                  "#2C061F",
+                  "#374045",
+                  "#D89216",
+                  "#E1D89F",
+
+                ],
+                border: "black",
+                hoverOffset: 4,
+              },
+            ],
+          };
+
+          const configPie = {
+            type: "pie",
+            data: dataPie,
+            options: {},
+          };
+
+          var chartBar = new Chart(
+            document.getElementById("chartPie"),
+            configPie
+          );
+        </script>
+        </div>
+        
+        
+
+        <div class="container mt-10">
+          <h2 class="text-xl">"Wie würden Sie ihre Fähigkeiten beschreiben?"</h2>
+          <ul class="flex justify-center mb-16">
+            <li>
+              <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="angry" class="w-8 text-color-own-green mr-1" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+                <path fill="currentColor" d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm0 448c-110.3 0-200-89.7-200-200S137.7 56 248 56s200 89.7 200 200-89.7 200-200 200zm0-144c-33.6 0-65.2 14.8-86.8 40.6-8.5 10.2-7.1 25.3 3.1 33.8s25.3 7.2 33.8-3c24.8-29.7 75-29.7 99.8 0 8.1 9.7 23.2 11.9 33.8 3 10.2-8.5 11.5-23.6 3.1-33.8-21.6-25.8-53.2-40.6-86.8-40.6zm-48-72c10.3 0 19.9-6.7 23-17.1 3.8-12.7-3.4-26.1-16.1-29.9l-80-24c-12.8-3.9-26.1 3.4-29.9 16.1-3.8 12.7 3.4 26.1 16.1 29.9l28.2 8.5c-3.1 4.9-5.3 10.4-5.3 16.6 0 17.7 14.3 32 32 32s32-14.4 32-32.1zm199-54.9c-3.8-12.7-17.1-19.9-29.9-16.1l-80 24c-12.7 3.8-19.9 17.2-16.1 29.9 3.1 10.4 12.7 17.1 23 17.1 0 17.7 14.3 32 32 32s32-14.3 32-32c0-6.2-2.2-11.7-5.3-16.6l28.2-8.5c12.7-3.7 19.9-17.1 16.1-29.8z"></path>
+              </svg>
+            </li>
+            <li>
+              <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="frown" class="w-8 text-color-own-green mr-1" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+                <path fill="currentColor" d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm0 448c-110.3 0-200-89.7-200-200S137.7 56 248 56s200 89.7 200 200-89.7 200-200 200zm-80-216c17.7 0 32-14.3 32-32s-14.3-32-32-32-32 14.3-32 32 14.3 32 32 32zm160-64c-17.7 0-32 14.3-32 32s14.3 32 32 32 32-14.3 32-32-14.3-32-32-32zm-80 128c-40.2 0-78 17.7-103.8 48.6-8.5 10.2-7.1 25.3 3.1 33.8 10.2 8.4 25.3 7.1 33.8-3.1 16.6-19.9 41-31.4 66.9-31.4s50.3 11.4 66.9 31.4c8.1 9.7 23.1 11.9 33.8 3.1 10.2-8.5 11.5-23.6 3.1-33.8C326 321.7 288.2 304 248 304z"></path>
+              </svg>
+            </li>
+            <li>
+              <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="meh" class="w-8 text-color-own-green mr-1" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+                <path fill="currentColor" d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm0 448c-110.3 0-200-89.7-200-200S137.7 56 248 56s200 89.7 200 200-89.7 200-200 200zm-80-216c17.7 0 32-14.3 32-32s-14.3-32-32-32-32 14.3-32 32 14.3 32 32 32zm160-64c-17.7 0-32 14.3-32 32s14.3 32 32 32 32-14.3 32-32-14.3-32-32-32zm8 144H160c-13.2 0-24 10.8-24 24s10.8 24 24 24h176c13.2 0 24-10.8 24-24s-10.8-24-24-24z"></path>
+              </svg>
+            </li>
+            <li>
+              <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="smile" class="w-8 text-color-own-green mr-1" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+                <path fill="currentColor" d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm0 448c-110.3 0-200-89.7-200-200S137.7 56 248 56s200 89.7 200 200-89.7 200-200 200zm-80-216c17.7 0 32-14.3 32-32s-14.3-32-32-32-32 14.3-32 32 14.3 32 32 32zm160 0c17.7 0 32-14.3 32-32s-14.3-32-32-32-32 14.3-32 32 14.3 32 32 32zm4 72.6c-20.8 25-51.5 39.4-84 39.4s-63.2-14.3-84-39.4c-8.5-10.2-23.7-11.5-33.8-3.1-10.2 8.5-11.5 23.6-3.1 33.8 30 36 74.1 56.6 120.9 56.6s90.9-20.6 120.9-56.6c8.5-10.2 7.1-25.3-3.1-33.8-10.1-8.4-25.3-7.1-33.8 3.1z"></path>
+              </svg>
+            </li>
+            <li>
+              <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="grin-stars" class="w-8 text-color-own-green " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+                <path fill="currentColor" d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm0 448c-110.3 0-200-89.7-200-200S137.7 56 248 56s200 89.7 200 200-89.7 200-200 200zm105.6-151.4c-25.9 8.3-64.4 13.1-105.6 13.1s-79.6-4.8-105.6-13.1c-9.8-3.1-19.4 5.3-17.7 15.3 7.9 47.2 71.3 80 123.3 80s115.3-32.9 123.3-80c1.6-9.8-7.7-18.4-17.7-15.3zm-227.9-57.5c-1 6.2 5.4 11 11 7.9l31.3-16.3 31.3 16.3c5.6 3.1 12-1.7 11-7.9l-6-34.9 25.4-24.6c4.5-4.5 1.9-12.2-4.3-13.2l-34.9-5-15.5-31.6c-2.9-5.8-11-5.8-13.9 0l-15.5 31.6-34.9 5c-6.2.9-8.9 8.6-4.3 13.2l25.4 24.6-6.1 34.9zm259.7-72.7l-34.9-5-15.5-31.6c-2.9-5.8-11-5.8-13.9 0l-15.5 31.6-34.9 5c-6.2.9-8.9 8.6-4.3 13.2l25.4 24.6-6 34.9c-1 6.2 5.4 11 11 7.9l31.3-16.3 31.3 16.3c5.6 3.1 12-1.7 11-7.9l-6-34.9 25.4-24.6c4.5-4.6 1.8-12.2-4.4-13.2z"></path>
+              </svg>
+            </li>
+          </ul>
+          <div class="grid grid-cols-2">
+            <ul class="flex justify-center flex-col">
+              <li><p class="inline-block">HTML: </p> </li>
+              <li><p class="inline-block">CSS: </p></li>
+                <li class="ml-8"><p class="inline-block">SASS: </p> </li>
+              <li class="ml-8"><p class="inline-block">Tailwind: </p></li>
+            
+              
+              <li><p class="inline-block">JS: </p></li>
+                <li class="ml-8"><p class="inline-block">React: </p></li>
+              
+             
+            </ul>
+            <ul class="flex justify-center flex-col">
+              <li><svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="grin-stars" class="w-8 text-color-own-green inline-block ml-12" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+                <path fill="currentColor" d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm0 448c-110.3 0-200-89.7-200-200S137.7 56 248 56s200 89.7 200 200-89.7 200-200 200zm105.6-151.4c-25.9 8.3-64.4 13.1-105.6 13.1s-79.6-4.8-105.6-13.1c-9.8-3.1-19.4 5.3-17.7 15.3 7.9 47.2 71.3 80 123.3 80s115.3-32.9 123.3-80c1.6-9.8-7.7-18.4-17.7-15.3zm-227.9-57.5c-1 6.2 5.4 11 11 7.9l31.3-16.3 31.3 16.3c5.6 3.1 12-1.7 11-7.9l-6-34.9 25.4-24.6c4.5-4.5 1.9-12.2-4.3-13.2l-34.9-5-15.5-31.6c-2.9-5.8-11-5.8-13.9 0l-15.5 31.6-34.9 5c-6.2.9-8.9 8.6-4.3 13.2l25.4 24.6-6.1 34.9zm259.7-72.7l-34.9-5-15.5-31.6c-2.9-5.8-11-5.8-13.9 0l-15.5 31.6-34.9 5c-6.2.9-8.9 8.6-4.3 13.2l25.4 24.6-6 34.9c-1 6.2 5.4 11 11 7.9l31.3-16.3 31.3 16.3c5.6 3.1 12-1.7 11-7.9l-6-34.9 25.4-24.6c4.5-4.6 1.8-12.2-4.4-13.2z"></path>
+              </svg></li>
+              <li><svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="smile" class="w-8 text-color-own-green inline-block ml-12" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+                <path fill="currentColor" d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm0 448c-110.3 0-200-89.7-200-200S137.7 56 248 56s200 89.7 200 200-89.7 200-200 200zm-80-216c17.7 0 32-14.3 32-32s-14.3-32-32-32-32 14.3-32 32 14.3 32 32 32zm160 0c17.7 0 32-14.3 32-32s-14.3-32-32-32-32 14.3-32 32 14.3 32 32 32zm4 72.6c-20.8 25-51.5 39.4-84 39.4s-63.2-14.3-84-39.4c-8.5-10.2-23.7-11.5-33.8-3.1-10.2 8.5-11.5 23.6-3.1 33.8 30 36 74.1 56.6 120.9 56.6s90.9-20.6 120.9-56.6c8.5-10.2 7.1-25.3-3.1-33.8-10.1-8.4-25.3-7.1-33.8 3.1z"></path>
+              </svg></li>
+              <li><svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="frown" class="w-8 text-color-own-green inline-block ml-12" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+                <path fill="currentColor" d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm0 448c-110.3 0-200-89.7-200-200S137.7 56 248 56s200 89.7 200 200-89.7 200-200 200zm-80-216c17.7 0 32-14.3 32-32s-14.3-32-32-32-32 14.3-32 32 14.3 32 32 32zm160-64c-17.7 0-32 14.3-32 32s14.3 32 32 32 32-14.3 32-32-14.3-32-32-32zm-80 128c-40.2 0-78 17.7-103.8 48.6-8.5 10.2-7.1 25.3 3.1 33.8 10.2 8.4 25.3 7.1 33.8-3.1 16.6-19.9 41-31.4 66.9-31.4s50.3 11.4 66.9 31.4c8.1 9.7 23.1 11.9 33.8 3.1 10.2-8.5 11.5-23.6 3.1-33.8C326 321.7 288.2 304 248 304z"></path>
+              </svg></li>
+              <li><svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="meh" class="w-8 text-color-own-green inline-block ml-12" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+                <path fill="currentColor" d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm0 448c-110.3 0-200-89.7-200-200S137.7 56 248 56s200 89.7 200 200-89.7 200-200 200zm-80-216c17.7 0 32-14.3 32-32s-14.3-32-32-32-32 14.3-32 32 14.3 32 32 32zm160-64c-17.7 0-32 14.3-32 32s14.3 32 32 32 32-14.3 32-32-14.3-32-32-32zm8 144H160c-13.2 0-24 10.8-24 24s10.8 24 24 24h176c13.2 0 24-10.8 24-24s-10.8-24-24-24z"></path>
+              </svg></li>
+              <li><svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="meh" class="w-8 text-color-own-green inline-block ml-12" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+                <path fill="currentColor" d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm0 448c-110.3 0-200-89.7-200-200S137.7 56 248 56s200 89.7 200 200-89.7 200-200 200zm-80-216c17.7 0 32-14.3 32-32s-14.3-32-32-32-32 14.3-32 32 14.3 32 32 32zm160-64c-17.7 0-32 14.3-32 32s14.3 32 32 32 32-14.3 32-32-14.3-32-32-32zm8 144H160c-13.2 0-24 10.8-24 24s10.8 24 24 24h176c13.2 0 24-10.8 24-24s-10.8-24-24-24z"></path>
+              </svg></li>
+              <li class="w-8 text-color-own-green ml-12">...<!-- <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="angry" class="w-8 text-color-own-green ml-12" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+                <path fill="currentColor" d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm0 448c-110.3 0-200-89.7-200-200S137.7 56 248 56s200 89.7 200 200-89.7 200-200 200zm0-144c-33.6 0-65.2 14.8-86.8 40.6-8.5 10.2-7.1 25.3 3.1 33.8s25.3 7.2 33.8-3c24.8-29.7 75-29.7 99.8 0 8.1 9.7 23.2 11.9 33.8 3 10.2-8.5 11.5-23.6 3.1-33.8-21.6-25.8-53.2-40.6-86.8-40.6zm-48-72c10.3 0 19.9-6.7 23-17.1 3.8-12.7-3.4-26.1-16.1-29.9l-80-24c-12.8-3.9-26.1 3.4-29.9 16.1-3.8 12.7 3.4 26.1 16.1 29.9l28.2 8.5c-3.1 4.9-5.3 10.4-5.3 16.6 0 17.7 14.3 32 32 32s32-14.4 32-32.1zm199-54.9c-3.8-12.7-17.1-19.9-29.9-16.1l-80 24c-12.7 3.8-19.9 17.2-16.1 29.9 3.1 10.4 12.7 17.1 23 17.1 0 17.7 14.3 32 32 32s32-14.3 32-32c0-6.2-2.2-11.7-5.3-16.6l28.2-8.5c12.7-3.7 19.9-17.1 16.1-29.8z"></path>
+              </svg> --></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section
+        id="contact"
+        class="h-auto mb-14 p-5 mt-24"
+      >
+      <div class="container grid grid-cols-1">
+        <div class="container flex justify-center flex-col mb-8 text-center">
+          <h2 class="text-2xl">Du möchtest dich gern bei mir melden?</h2>
+          <p>Dann mach das doch, es ist ganz einfach!</p>
+        </div>
+
+        <div
+          class="block p-6 rounded-lg shadow-lg bg-black w-3/4 max-w-7xl m-auto"
+        >
+          <form action="https://formspree.io/f/mqknzgyl" method="POST">
+            <div class="form-group mb-6">
+              <input
+                type="text"
+                class="form-control block w-full px-3 py-1.5 text-base font-normal text-yellow-600 bg-gray-800 bg-clip-padding border border-solid border-yellow-700 rounded transition ease-in-out m-0 focus:text-yellow-400 focus:bg-gray-900 focus:border-yellow-400 focus:outline-yellow-400"
+                id="exampleInput7"
+                placeholder="Name"
+              />
+            </div>
+            <div class="form-group mb-6">
+              <input
+                type="email"
+                class="form-control block w-full px-3 py-1.5 text-base font-normal text-yellow-600 bg-gray-800 bg-clip-padding border border-solid border-yellow-600 rounded transition ease-in-out m-0 focus:text-yellow-400 focus:bg-gray-900 focus:border-yellow-400 focus:outline-yellow-400"
+                id="exampleInput8"
+                placeholder="Email address"
+              />
+            </div>
+            <div class="form-group mb-6">
+              <textarea
+                class="form-control block w-full px-3 py-1.5 text-base font-normal text-yellow-600 bg-gray-800 bg-clip-padding border border-solid border-yellow-600 rounded transition ease-in-out m-0 focus:text-yellow-400 focus:bg-gray-900 focus:border-yellow-400 focus:outline-yellow-400"
+                id="exampleFormControlTextarea13"
+                rows="5"
+                placeholder="Message"
+              ></textarea>
+            </div>
+            <div class="form-group form-check text-center mb-6">
+              <input
+                type="checkbox"
+                class="form-check-input appearance-none h-4 w-4 border border-gray-300 rounded-sm bg-gray-800 checked:bg-yellow-600 checked:border-gray-300 focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain mr-2 cursor-pointer"
+                id="exampleCheck87"
+                checked
+              />
+              <label
+                class="form-check-label inline-block text-yellow-400"
+                for="exampleCheck87"
+                >Send me a copy of this message</label
+              >
+            </div>
+            <button
+              type="submit"
+              class="w-full px-6 py-2.5 bg-gray-800 text-yellow-400 font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-gray-900 hover:shadow-lg focus:bg-gray-900 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-700 active:shadow-lg transition duration-150 ease-in-out"
+            >
+              Send
+            </button>
+          </form>
+        </div>
+      </div>
+      </section>
+    </main>
+
+    <footer class="h-60 sec2 text-black grid" >
+      <h4 class="inline-block m-auto"><i class="fab fa-github-square p-8 text-color-own-green"></i> <i class="fab fa-facebook-square p-8 text-color-own-green"></i><i class="fab fa-discord p-8 text-color-own-green"></i><i class="fab fa-pinterest-square p-8 text-color-own-green"></i></h4>
+        <h4 class="text-sm inline-block m-auto"><i class="far fa-copyright text-color-own-green"></i> by Marc Poettgen</h4>
+      </div>
+
+    </footer>
+
+    <!-- js -->
+
+    <script src="src/js/index.js"></script>
+
+    <!-- tailwind elements -->
+    <script src="./node_modules/tw-elements/dist/js/index.min.js"></script>
+  </body>
+</html>
